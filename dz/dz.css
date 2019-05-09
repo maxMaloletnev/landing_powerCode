@@ -1,0 +1,71 @@
+*{
+    transition: all .1s ease-in;
+}
+body{
+    background-color: #3B3F45;
+    font-family: sans-serif;    
+}
+.header{    
+    text-align: center;    
+    color: #E97B7B;
+    background-color: #4A4F56;
+    left:50%;
+}
+.container {
+    margin:;
+    
+}
+label{
+    font-size: 20px;
+    color: #E1E1F0;
+}
+.beforeAfter {
+    color: #B6B6C9;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.beforeAfter:before {
+    content: "("
+}
+.beforeAfter:after {
+    content: ")"
+}
+input[type=checkbox] {
+    transform: 20px; 
+    margin-left: 6px;
+}
+input[type=button] {
+    width: 100%;
+    background: #4A4F56;
+    color: #DC7270;
+    border: 0px;
+    padding: 10px;
+}
+.formTitle {
+    margin-left:5px
+}
+.form:nth-child(2n+1){
+    background: #88839E;
+}
+.form:nth-child(2n+2){
+    background: #77778D;
+}
+.form:hover {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    background: #625E77;
+}
+.form:checked{
+   text-decoration: line-through
+}
+input:checked + span {
+    text-decoration: line-through
+}
+input[type=button]:active {
+    background: #625E77;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
