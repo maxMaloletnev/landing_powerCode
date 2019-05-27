@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chessboard {
+    position: relative;
+    background-image: url(../img/bg.jpg);
+    height: 656px;
+    width: 656px;
+}
+.a1 {
+    position: absolute;
+    left: 21px;
+    width: 69px;
+    bottom: 20px;
+}
+.c1 {
+    position: absolute;
+    left: 178px;
+    width: 69px;
+    bottom: 20px;
+}
+.e1 {
+    position: absolute;
+    left: 332px;
+    width: 69px;
+    bottom: 20px;
+}
+.g1 {
+    position: absolute;
+    left: 487px;
+    width: 69px;
+    bottom: 20px;
+}
+.b2 {
+    position: absolute;
+    left: 100px;
+    width: 69px;
+    bottom: 98px;
+}
+.d2 {
+    position: absolute;
+    left: 256px;
+    width: 69px;
+    bottom: 98px;
+}
+.f2 {
+    position: absolute;
+    left: 409px;
+    width: 69px;
+    bottom: 98px;
+}
+.h2 {
+    position: absolute;
+    left: 564px;
+    width: 69px;
+    bottom: 98px;
+}
+.a3 {
+    position: absolute;
+    left: 21px;
+    width: 69px;
+    bottom: 175px;
+}
+.c3 {
+    position: absolute;
+    left: 178px;
+    width: 69px;
+    bottom: 175px;
+}
+.e3 {
+    position: absolute;
+    left: 256px;
+    width: 69px;
+    bottom: 252px;
+}
+.g3 {
+    position: absolute;
+    left: 487px;
+    width: 69px;
+    bottom: 175px;
+}
+.b8 {
+    position: absolute;
+    left: 100px;
+    width: 69px;
+    top: 24px;
+}
+.d8 {
+    position: absolute;
+    left: 256px;
+    width: 69px;
+    top: 24px;
+}
+.f8 {
+    position: absolute;
+    left: 409px;
+    width: 69px;
+    top: 24px;
+}
+.h8 {
+    position: absolute;
+    left: 564px;
+    width: 69px;
+    top: 24px;
+}
+.a7 {
+    position: absolute;
+    left: 21px;
+    width: 69px;
+    top: 100px;
+}
+.c7 {
+    position: absolute;
+    left: 178px;
+    width: 69px;
+    top: 100px;
+}
+.e7 {
+    position: absolute;
+    left: 332px;
+    width: 69px;
+    top: 100px;
+}
+.g7 {
+    position: absolute;
+    left: 487px;
+    width: 69px;
+    top: 100px;
+}
+.b6 {
+    position: absolute;
+    left: 100px;
+    width: 69px;
+    top: 178px;
+}
+.d6 {
+    position: absolute;
+    left: 256px;
+    width: 69px;
+    top: 178px;
+}
+.f6 {
+    position: absolute;
+    left: 333px;
+    width: 69px;
+    top: 256px;
+}
+.h6 {
+    position: absolute;
+    left: 564px;
+    width: 69px;
+    top: 178px;
+}

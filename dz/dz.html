@@ -2,50 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSS Dinner Shopping list</title>
+    <title>CSS Weather Forecast</title>
     <link rel="stylesheet" href="dz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css">
 </head>
 <body>
-   <header class="header">
-       <h1>CSS Dinner Shopping list</h1>
-       <p>Let`s go to the mall!</p>      
-   </header>
-    <section class="container">
-          <form>
-          <div class="form">
-               <label>          
-                   <input type="checkbox" name="option1"><span class="formTitle">A lot a pickes<span class="beforeAfter">for the next lesson about CSS</span></span>
-               </label>
-           </div>
-           <div class="form">
-               <label>          
-                   <input type="checkbox" name="option2"><span class="formTitle">10 apples <span class="beforeAfter">for more CSS manipulations</span></span>
-               </label>
-           </div>
-           <div class="form">
-               <label>          
-                   <input type="checkbox" name="option3"><span class="formTitle">20 Oranges <span class="beforeAfter">because they are awesome</span></span>
-               </label>
-           </div>
-            <div class="form">
-               <label>          
-                   <input type="checkbox" name="option4"><span class="formTitle">13 plates <span class="beforeAfter">hm...they always disapper</span></span>
-               </label>
-           </div>
-           <div class="form">
-               <label>          
-                   <input type="checkbox" name="option5"><span class="formTitle">15 bentos</span>
-               </label>
-           </div>
-           <div class="form">    
-               <label>          
-                   <input type="checkbox" name="option6"><span class="formTitle">1 bottle of Sake ^_^ <span class="beforeAfter">for my friends</span></span>
-               </label>
-           </div>
-           <div class="button">
-               <input type="button" value="Bon appetit :)">
-           </div>
-       </form>
-   </section>
+   <header class="container">
+       <h1>CSS Weather Forecast</h1><i class="wi wi-sunrise"></i>
+   </header>    
+   <div class="container">
+        <ul class="box">  
+           <li class="width50"><div class=liTitle lisbon>Lisbon</div><span class="weather">21</span><i class="wi wi-day-sunny"></i></li>
+           <li class="width25"><div class=liTitle>Paris</div><span class="weather">11</span><i class="wi wi-day-sleet"></i></li>
+           <li class="width25"><div class=liTitle>Belgrade</div><span class="weather">15</span><i class="wi wi-day-cloudy"></i></li>
+           <li class="width25"><div class=liTitle>Moscow</div><span class="weather">21</span><i class="wi wi-day-cloudy-high"></i></li>
+           <li class="width25"><div class=liTitle>TelAviv</div><span class="weather">32</span><i class="wi wi-hot"></i></li>
+           <li class="width25"><div class=liTitle>Cair</div><span class="weather">21</span><i class="wi wi-day-sunny"></i></li>
+           <li class="width25"><div class=liTitle>New York</div><span class="weather">17</span><i class="wi wi-day-sleet-storm"></i></li>
+           <li class="width25"><div class=liTitle>New Delhi</div><span class="weather">17</span><i class="wi wi-sleet"></i></li>
+           <li class="width50"><div class=liTitle>San Francisco</div><span class="weather">15</span><i class="wi wi-day-cloudy"></i></li>
+            <li class="width25"><div class=liTitle>Tokyo</div><span class="weather">8</span><i class="wi wi-night-clear"></i></li>
+           <li class="width100"><div class=liTitle>Sydney</div><span class="weather">25</span><i class="wi wi-night-cloudy"></i></li>
+       </ul>
+   </div>
 </body>
 </html>

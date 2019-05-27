@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+header {
+    width: 100%;
+    height: 80vh;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 625px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.navButtons {
+    color: #979797;
+}
+.navButtons:hover {
+    color: #000;
+}
+.headerBlock {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.pHeader {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.center {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.buttonHeader {
+    width: 190px;
+    height: 57px;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    margin: auto;
+    padding-top: 18px;
+}
+.buttonHeader:hover {
+    background: #ddd;
+}
+.elipse {
+    max-width: 11px;
+    margin: auto;
+    padding-top: 285px;
+}
+.aboutUs {
+    height: 808px;
+    background: #000;
+    color: #fff;
+}
+.container {
+    max-width: 935px;
+    margin: auto;
+}
+.aboutUs2011 {
+    padding-top: 150px;
+   max-width: 357px; 
+}
+.aboutUs2012 {
+    max-width: 357px;
+    position: relative;
+    left: 62%
+}
+.aboutUs2013 {
+    max-width: 357px;
+}
+.aboutUs2014 {
+    max-width: 357px;
+    position: relative;
+    left: 62%
+}
+div.aboutUs2011 > h3 {
+    text-align: right;
+}
+div.aboutUs2013 > h3 {
+    text-align: right;
+}
+.mainLine {
+    position: relative;
+    left: 50%;
+    top: -494px;
+    z-index: 1;
+}
+.smallCircleRight {
+    position: relative;
+    left: 459px;
+    top: -42px;
+    z-index: 2;
+}
+.smallCircleLeft {
+    position: relative;
+    left: -121px;
+    top: -46px;
+    z-index: 2;
+}
+.buildings {
+    position: relative;
+    bottom: 1284px;
+    left: -200px;
+}
+.aboutUs2011:hover {
+    transform: scale(1.1);
+    position: relative;
+    left: -29px;
+    top: -15px;
+    z-index: 5;
+}
+.aboutUs2013:hover {
+    transform: scale(1.1);
+    position: relative;
+    left: -29px;
+    top: -15px;
+    z-index: 5;
+}
