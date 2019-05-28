@@ -11,9 +11,8 @@ header {
     height: 100vh;
 }
 
-ul {
+.menu {
     display: flex;
-    flex-wrap: wrap;
     max-width: 625px;
     justify-content: space-around;
     align-items: center;
@@ -61,7 +60,53 @@ h1 {
     padding-top: 285px;
 }
 .aboutUs {
-    height: 808px;
+    background: #000;
+    color: #fff;
+    max-width: 100vw;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 935px;
+    margin: auto;
+}
+.buildings {
+    max-width: 100vw;
+    position: relative;
+    bottom: -6px;
+}
+.aboutUs2011 {
+    align-self: flex-start;
+    max-width: 450px;
+    padding-top: 50px;
+}
+.aboutUs2012 {
+    align-self: flex-end;
+    max-width: 450px;
+}
+.aboutUs2013 {
+    align-self: flex-start;
+    max-width: 450px;
+}
+.aboutUs2014 {
+    align-self: flex-end;
+    max-width: 450px;
+}
+h2.teamH2 {
+    margin: auto;
+}
+p.teamParagraph {
+    margin: auto;
+}
+.containerTeam {
+    display: flex;
+    justify-content: space-around;
+}
+.team2 {
+    align-self: flex-start;
+}
+/*
+.aboutUs {
     background: #000;
     color: #fff;
 }
@@ -111,9 +156,8 @@ div.aboutUs2013 > h3 {
     z-index: 2;
 }
 .buildings {
-    position: relative;
-    bottom: 1284px;
-    left: -200px;
+    display: flex;
+    align-items: flex-end;
     max-width: 100vw;
 }
 .aboutUs2011:hover {
@@ -130,3 +174,4 @@ div.aboutUs2013 > h3 {
     top: -15px;
     z-index: 5;
 }
+*/
