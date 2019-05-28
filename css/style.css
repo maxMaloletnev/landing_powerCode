@@ -8,7 +8,7 @@
 }
 header {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 ul {
@@ -114,6 +114,7 @@ div.aboutUs2013 > h3 {
     position: relative;
     bottom: 1284px;
     left: -200px;
+    max-width: 100vw;
 }
 .aboutUs2011:hover {
     transform: scale(1.1);
