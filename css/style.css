@@ -41,6 +41,8 @@ h1 {
     display: flex;
     flex-direction:column;
     justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 .buttonHeader {
     width: 190px;
@@ -71,7 +73,7 @@ h1 {
     margin: auto;
 }
 .buildings {
-    max-width: 100vw;
+    max-width: 99vw;
     position: relative;
     bottom: -6px;
 }
@@ -92,86 +94,133 @@ h1 {
     align-self: flex-end;
     max-width: 450px;
 }
+.team {
+    display: flex;
+}
 h2.teamH2 {
-    margin: auto;
+    text-align: center;
 }
 p.teamParagraph {
-    margin: auto;
+    text-align: center;
 }
 .containerTeam {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    min-height: 300px;
+    min-width: 800px;
+    margin:100px 0 100px 0;
+    
+}
+.team1 {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    max-width: 168px;
 }
 .team2 {
     align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    max-width: 168px;
 }
-/*
-.aboutUs {
+.team3 {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    max-width: 168px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+.font12 {
+    font-size: 11px;
+}
+.everything {
     background: #000;
     color: #fff;
+    -webkit-clip-path: polygon(0% 15%, 100% 0, 100% 85%, 0 100%);
+     clip-path: polygon(0% 15%, 100% 0, 100% 85%, 0 100%);
 }
-.container {
-    max-width: 935px;
-    margin: auto;
+.everythingH2 {
+    text-align: center;
+    margin-top: 45px;
 }
-.aboutUs2011 {
-    padding-top: 150px;
-   max-width: 357px; 
+.everythingP {
+    text-align: center;
 }
-.aboutUs2012 {
-    max-width: 357px;
-    position: relative;
-    left: 62%
-}
-.aboutUs2013 {
-    max-width: 357px;
-}
-.aboutUs2014 {
-    max-width: 357px;
-    position: relative;
-    left: 62%
-}
-div.aboutUs2011 > h3 {
-    text-align: right;
-}
-div.aboutUs2013 > h3 {
-    text-align: right;
-}
-.mainLine {
-    position: relative;
-    left: 50%;
-    top: -494px;
-    z-index: 1;
-}
-.smallCircleRight {
-    position: relative;
-    left: 459px;
-    top: -42px;
-    z-index: 2;
-}
-.smallCircleLeft {
-    position: relative;
-    left: -121px;
-    top: -46px;
-    z-index: 2;
-}
-.buildings {
+.containerEverything {
     display: flex;
-    align-items: flex-end;
-    max-width: 100vw;
+    justify-content: space-around;
+    
 }
-.aboutUs2011:hover {
-    transform: scale(1.1);
-    position: relative;
-    left: -29px;
-    top: -15px;
-    z-index: 5;
+.itemEverything {
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+    margin:100px 0 100px 0;
 }
-.aboutUs2013:hover {
-    transform: scale(1.1);
-    position: relative;
-    left: -29px;
-    top: -15px;
-    z-index: 5;
+.mb45px {
+    margin-bottom: 45px;
 }
-*/
+.mb25px {
+    margin-bottom: 25px;
+}
+.mt100px {
+    margin-top: 100px;
+}
+.buttonEverything {
+    width: 190px;
+    height: 57px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    margin: auto;
+    padding-top: 18px;
+    margin-bottom: 100px;
+}
+.buttonEverything:hover {
+    background: #333;
+}
+.containerContact {
+    display: flex;
+    justify-content: space-around;    
+}
+.contactH2 {
+    text-align: center;
+    margin-top: 45px;
+}
+.contactP {
+    text-align: center;
+}
+.itemContact {
+    display: flex;
+    flex-direction: column;
+    margin:100px 0 100px 0;
+}
+.form {
+    display: flex;  
+    flex-direction: column;
+}
+.inputForm {
+    text-align: center;
+    height: 55px;
+}
+.inputBigForm {
+    height: 200px;
+    text-align: inherit;
+}
+.buttonForm {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttonText {
+    align-items: cursor: help;nter;
+}
