@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <title>B&W Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-     <header>
+     <header id='top'>
         <nav>
-             <ul class="menu">
-                 <li><a class="navButtons" href="#">Home</a></li>
-                 <li><a class="navButtons" href="#">About Us</a></li>
-                 <li><a class="navButtons" href="#">Team</a></li>
-                 <li><a class="navButtons" href="#"><img src="img/Logo.png" alt="logo"></a></li>
-                 <li><a class="navButtons" href="#">Services</a></li>
-                 <li><a class="navButtons" href="#">Blog</a></li>
-                 <li><a class="navButtons" href="#">Contact US</a></li>
-             </ul>
-         </nav>
+			<div class="nav-container">
+			<div class="wrapper">
+			<div class="menuToggle"><img src="img/Hamburger_icon.svg.png" alt="Hamburger_icon"></div>
+			<div class="logoMobile"><img src="img/Logo.png" alt="Logo"></div>
+				<ul class="menu nav">
+					 <li><a class="navButtons" href="#top">Home</a></li>
+					 <li><a class="navButtons" href="#aboutUs">About Us</a></li>
+					 <li><a class="navButtons" href="#team">Team</a></li>
+					 <li><a class="navButtonsLogo" href="#top"><img src="img/Logo.png" alt="logo"></a></li>
+					 <li><a class="navButtons" href="#everything">Services</a></li>
+					 <li><a class="navButtons" href="#blog">Blog</a></li>
+					 <li><a class="navButtons" href="#contactUs">Contact US</a></li>
+                 </ul>
+                 </div>
+			</div>
+		 </nav>
          <div class="headerBlock">
             <div class="center">
                  <h1 class="header">We build it with passion</h1>
@@ -27,40 +35,44 @@
              </div>
          </div>
      </header>
-<section class="aboutUs">
+<section id='aboutUs' class="aboutUs anchor">
+   <div class="sectionAbout">
     <div class="container">
-        <div class="aboutUs2011">
+        <div class="aboutUs2011 aboutUsHover">
                 <h3>2011</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.</p>
-                <img class="smallCircleRight" src="img/smallcircle.png" alt="smallcircle">
-            </div>
-            <div class="aboutUs2012">
+                <img class="smallCircleLeft" src="img/smallcircle.png" alt="smallcircle">
+                </div>    
+            
+            <div class="aboutUs2012 aboutUsHover">
                 <h3>2012</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.</p>
-                <img class="smallCircleLeft" src="img/smallcircle.png" alt="smallcircle">
+                <img class="smallCircleRight" src="img/smallcircle.png" alt="smallcircle">
             </div>
-            <div class="aboutUs2013">
+            <div class="aboutUs2013 aboutUsHover">
                 <h3>2013</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.</p>
-                <img class="smallCircleRight" src="img/smallcircle.png" alt="smallcircle">
+                <img class="smallCircleLeft" src="img/smallcircle.png" alt="smallcircle">
             </div>             
-            <div class="aboutUs2014">
+            <div class="aboutUs2014 aboutUsHover">
                 <h3>2014</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.</p>
-                <img class="smallCircleLeft" src="img/smallcircle.png" alt="smallcircle">
+                <img class="smallCircleRight" src="img/smallcircle.png" alt="smallcircle">
             </div>        
     </div>
-    <img src="img/Buildings.png" alt="Buildings" class="buildings">     
+    <img src="img/Buildings.png" alt="Buildings" class="buildings">
+    <img src="img/mainLine.png" alt="mainLine" class="mainLine"> 
+   </div>    
 </section>
-<section class="team">
+<section id='team' class="team anchor">
    <div class="container">
     <h2 class="teamH2 ">This is our team</h2>
     <p class="teamParagraph">We are small but effective and ...</p>
     <div class="containerTeam">
         <div class="team1">
-            <img class="center" src="img/team_2.png" alt="team_2">
+            <img class="center" src="img/team_1.png" alt="team_2">
             <h3 class="center">Mark Once</h3>
-            <p class="center font12">Designer & Front-End Developer</p>
+            <p class="center">Designer & Front-End Developer</p>
             <div class="social">
                 <img  src="img/twitter.png" alt="twitter">
                 <img  src="img/instagram.png" alt="instagram">                
@@ -69,16 +81,16 @@
         <div class="team2">
             <img class="center" src="img/team_2.png" alt="team_2">
             <h3 class="center" >Justin Twice</h3>
-            <p class="center font12">Founder & CEO</p>
+            <p class="center">Founder & CEO</p>
             <div class="social">
                 <img  src="img/twitter.png" alt="twitter">
                 <img  src="img/instagram.png" alt="instagram">                
             </div>
         </div>
         <div class="team3">
-            <img class="center" src="img/team_2.png" alt="team_2">
+            <img class="center" src="img/team_3.png" alt="team_2">
             <h3 class="center">Antonio Never</h3>
-            <p class="center font12">Someone & Somewhere</p>
+            <p class="center">Someone & Somewhere</p>
             <div class="social">
                 <img  src="img/twitter.png" alt="twitter">
                 <img  src="img/instagram.png" alt="instagram">                
@@ -87,9 +99,9 @@
     </div>
     </div>
 </section>
-<section class="everything">
+<section id='everything' class="everything anchor">
    <div class="container ">
-    <h2 class="everythingH2 mt100px">We provide you everything</h2>
+    <h2 class="everythingH2">We provide you everything</h2>
     <p class="everythingP">Maybe not everything, but we provide you some stuff.</p>
     <div class="containerEverything">
        <div class="itemEverything">
@@ -105,14 +117,16 @@
        <div class="itemEverything">
             <img class="mb45px center" src="img/CLOUD-_-UPLOAD.png" alt="">
             <h3 class="mb45px center">And Some Cloud</h3>
-            <p class="center">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
+            <p id="blog" class="center">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
        </div>
     </div>
-    <a href="#" class="buttonEverything"><p>Visit our blog</p></a>
-<!--    <img src="img/Post5.png" alt="">-->
+    <div class="container">
+        <a href="#" class="buttonEverything"><p>Visit our blog</p></a>
+    <div class="postContainer"><img class="post" src="img/Post5.png" alt="Post"></div>
+    </div>
     </div>
 </section>
-<section class="contactUs">
+<section id='contactUs' class="contactUs anchor">
    <div class="container ">
     <h2 class="contactH2">Contac Us</h2>
     <p class="contactP mb45px">We know what we need to do</p>
@@ -141,7 +155,10 @@
     </div>
    </div> 
 </section>
-</body>    
+</body>  
+<footer>
+	<p class="copyWrite center">Copyright © Kenan Hamidic. All rights reserved.</p>
+</footer>  
 </html>
 
 
